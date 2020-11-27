@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<nav>
+<ul>
+    <li><a href="/index">Главная</a></li>
+    <li><a href="/parsing">Парсинг</a></li>
+    <li><a href="/contacts">Контакты</a></li>
+</ul>
+</nav>
+
+<h2>О сайте</h2>
+<p>Здесь вы можете посмотреть, какие мотоциклы продают на сайте <a href="https://moto.drom.ru/sale/">moto.drom.ru</a>.</p>
+<p>Мы предложим информацию по нескольким моделям: среднюю цену, максимальную цену, минимальную, а также количество предложений на сайте.</p>
+<p>Чтобы посмотреть информацию по конкретной модели, выберите ее в выпадающем списке и нажмите Посмотреть.</p>
+
+<form action = '/form' method = 'POST'>
+    <div>
+        <select name = 'brand'>
+            <option value="BMW">BMW C 650 GT</option>
+            <option value="Harley">Harley-Davidson Softail</option>
+        </select>
+    </div>
+    <br>
+    <div>
+       <input type="submit" value="Посмотреть">
+    </div>
+
+</form>
+
+
+
+<footer>
+    Copyright &copy; 2020
+    Made by Tatyana Kuleshova
+    <p>Сделано на Flask</p>
+</footer>
+
+
+</body>
+</html>
