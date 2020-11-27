@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сбор данных</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<nav>
+<ul>
+    <li><a href="/index">Главная</a></li>
+    <li><a href="/parsing">Парсинг</a></li>
+    <li><a href="/contacts">Контакты</a></li>
+</ul>
+</nav>
+<h2>Результаты</h2>
+ <ul>
+
+      <li>
+        Данные по запросу автомобиля {{car_name_site}} с сайта {{site_name}}.
+      </li>
+      <li>
+        Средняя цена мотоцикла: {{average_price}} рублей.
+      </li>
+      <li>
+         Максимальная цена мотоцикла: {{max_price}} рублей.
+      </li>
+      <li>
+          Минимальная цена мотоцикла: {{min_price}} рублей.
+      </li>
+      <li>
+          Всего предложений: {{offers_all}}.
+      </li>
+ </ul>
+
+<footer>
+    Copyright &copy; 2020
+    Made by Tatyana Kuleshova
+    <p>Сделано на Flask</p>
+</footer>
+
+</body>
+</html>
