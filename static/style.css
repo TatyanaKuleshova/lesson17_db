@@ -1,0 +1,54 @@
+body {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    font-family: Georgia, Times, serif;
+}
+
+footer {
+    width: 98%;
+    clear: both;
+    text-align: right;
+    padding: 20px;
+    border-top: 2px solid black;
+    position: fixed;
+    top: 90%;
+}
+
+nav {
+    height: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px, 0px, 5px, 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover {
+    color: #000000;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
